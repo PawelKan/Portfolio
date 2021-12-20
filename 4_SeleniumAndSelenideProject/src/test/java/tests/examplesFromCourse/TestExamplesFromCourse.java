@@ -36,14 +36,15 @@ public class TestExamplesFromCourse {
         driver.navigate().to("http://www.google.pl");
     }
 
-    @Test
-    public void selenideTest(){
-        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
-        WebDriverRunner.setWebDriver(driver);
+//    @Test
+//    public void selenideTest(){
+//        System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
+//        WebDriver driver = new ChromeDriver();
+//        WebDriverRunner.setWebDriver(driver);
+//
+//        open("http://www.automationpractice.com");
+//        $("#contact-link").click();
+//        $("#editorial_block_center > h1").shouldHave(Condition.text("Automation Practice Website")).;
+//    }
 
-        open("http://www.automationpractice.com");
-        $("#contact-link").click();
-        $("#editorial_block_center > h1").shouldHave(Condition.text("Automation Practice Website")).;
-    }
 }
