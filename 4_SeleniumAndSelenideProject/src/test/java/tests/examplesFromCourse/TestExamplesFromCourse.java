@@ -1,19 +1,10 @@
 package tests.examplesFromCourse;
 
-import com.codeborne.selenide.Condition;
-import com.codeborne.selenide.Selenide;
-import com.codeborne.selenide.WebDriverRunner;
-
 import configs.DriverManager;
-import io.github.bonigarcia.wdm.webdriver.WebDriverBrowser;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
-import pages.TestBase;
-
-import static com.codeborne.selenide.Selenide.*;
 
 
 public class TestExamplesFromCourse {
