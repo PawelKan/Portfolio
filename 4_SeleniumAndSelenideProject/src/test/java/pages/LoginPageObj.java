@@ -1,18 +1,19 @@
 package pages;
 
 import com.codeborne.selenide.SelenideElement;
+import lombok.Getter;
 import tests.TestBase;
 
 import static com.codeborne.selenide.Selenide.$;
 
 public class LoginPageObj extends TestBase {
 
+    @Getter
     SelenideElement txtUserMail = $("#email");
+
+    @Getter
     SelenideElement txtUserPass = $("#passwd");
+
+    @Getter
     SelenideElement btnSubmit =  $("#SubmitLogin");
-
-    public SelenideElement getTxtUserMail(){ return txtUserMail; }
-    public SelenideElement getTxtUserPass(){ return txtUserPass; }
-    public SelenideElement getBtnSubmit(){ return btnSubmit; }
-
 }
