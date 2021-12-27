@@ -1,5 +1,7 @@
 package pages;
 
-public class HomePageObj {
+import tests.TestBase;
+
+public class HomePageObj extends TestBase {
 
 }
