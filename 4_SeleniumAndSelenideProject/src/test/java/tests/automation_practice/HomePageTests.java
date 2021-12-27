@@ -10,7 +10,7 @@ import pages.MyAccountObj;
 
 import static com.codeborne.selenide.Selenide.open;
 
-public class AutomationPractice_HomePageTests extends TestBase {
+public class HomePageTests extends TestBase {
 
     @Test
     public void checkHeaderOnPage(){
