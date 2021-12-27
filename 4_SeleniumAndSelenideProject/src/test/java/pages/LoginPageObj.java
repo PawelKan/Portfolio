@@ -1,12 +1,11 @@
 package pages;
 
 import com.codeborne.selenide.SelenideElement;
-import data.TestData;
-import org.openqa.selenium.WebElement;
+import tests.TestBase;
 
 import static com.codeborne.selenide.Selenide.$;
 
-public class LoginPageObj {
+public class LoginPageObj extends TestBase {
 
     SelenideElement txtUserMail = $("#email");
     SelenideElement txtUserPass = $("#passwd");

@@ -1,15 +1,31 @@
 package pages;
 
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
-import org.openqa.selenium.WebElement;
+import lombok.Getter;
+import tests.TestBase;
 
 import static com.codeborne.selenide.Selenide.$;
 
-public class MyAccountObj {
+public class MyAccountObj extends TestBase {
 
+
+    @Getter
     SelenideElement btnOrder = $("[title =\"Orders\"]");
 
-    public SelenideElement getBtnOrder() {return btnOrder;}
+    @Getter
+    SelenideElement btnMyCreditSlips = $("[title =\"Credit slips\"]");
+
+    @Getter
+    SelenideElement btnMyAdresses = $("[title =\"My addresses\"]");
+
+    @Getter
+    SelenideElement btnMyPersonalInformation = $("[title =\"Information\"]");
+
+    @Getter
+    SelenideElement myWishlist = $("[title =\"My wishlists\"]");
+
+    
+
+    //public SelenideElement getBtnOrder() {return btnOrder;}
 
 }
