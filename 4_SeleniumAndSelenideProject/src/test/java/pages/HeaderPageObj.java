@@ -17,5 +17,8 @@ public class HeaderPageObj {
     SelenideElement btnSignIn = header.$(".login");
 
     @Getter
+    SelenideElement btnSignOut = header.$(".logout");
+
+    @Getter
     SelenideElement btnUserDisplayedName = header.$(".account");
 }

@@ -37,7 +37,7 @@ public class AutomationPractice_LoginTests extends TestBase {
 
         // Logout from application and check username is not displayed
         myHeader.getBtnUserDisplayedName().shouldBe(Condition.visible).shouldHave(Condition.text(TestData.userDisplayedName));
-        myHeader.getBtnUserDisplayedName().click();
+        myHeader.getBtnSignOut().click();
         myHeader.getBtnUserDisplayedName().shouldNotBe(Condition.visible);
     }
 }
