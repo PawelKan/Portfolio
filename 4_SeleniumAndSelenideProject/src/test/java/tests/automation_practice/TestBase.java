@@ -1,4 +1,4 @@
-package tests;
+package tests.automation_practice;
 
 
 import configs.DriverManagerWithSelenide;

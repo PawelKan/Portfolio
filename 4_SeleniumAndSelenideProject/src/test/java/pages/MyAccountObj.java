@@ -2,7 +2,7 @@ package pages;
 
 import com.codeborne.selenide.SelenideElement;
 import lombok.Getter;
-import tests.TestBase;
+import tests.automation_practice.TestBase;
 
 import static com.codeborne.selenide.Selenide.$;
 

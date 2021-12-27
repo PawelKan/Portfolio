@@ -1,16 +1,13 @@
-package tests;
+package tests.automation_practice;
 
 import com.codeborne.selenide.Condition;
-import data.TestData;
 import data.TestUrls;
 import org.testng.annotations.Test;
 import pages.HeaderPageObj;
-import pages.LoginPageObj;
-import pages.MyAccountObj;
 
 import static com.codeborne.selenide.Selenide.open;
 
-public class AutomationPractice_HomePageTests extends TestBase {
+public class HomePageTests extends TestBase {
 
     @Test
     public void checkHeaderOnPage(){

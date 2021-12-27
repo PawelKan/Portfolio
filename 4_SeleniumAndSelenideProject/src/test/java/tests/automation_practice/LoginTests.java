@@ -1,12 +1,10 @@
-package tests;
+package tests.automation_practice;
 
 import com.codeborne.selenide.Condition;
 
 import data.TestData;
 import data.TestUrls;
 
-import okhttp3.internal.http2.Header;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.HeaderPageObj;
 import pages.LoginPageObj;
@@ -16,7 +14,7 @@ import pages.MyAccountObj;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class AutomationPractice_LoginTests extends TestBase {
+public class LoginTests extends TestBase {
     @Test
     public void loginIntoAccountWithLogout(){
         LoginPageObj loginPage = new LoginPageObj();
